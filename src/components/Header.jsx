@@ -27,9 +27,6 @@ const Header = () => {
           </button>
           <ul className="mx-5">
             <li className="mx-5">
-              <p className="mx-5">
-                <span className="mx-5"></span>
-              </p>
             </li>
           </ul>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
