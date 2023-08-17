@@ -51,6 +51,7 @@ export default function Footer() {
         <a
           className="text-white text-decoration-none"
           href="https://wa.me/+918544600600"
+          rel="noreferrer"
         >
           kakabook.com
         </a>
