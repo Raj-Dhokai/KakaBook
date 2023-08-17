@@ -34,15 +34,15 @@ function ContactForm() {
       setNameError("");
     }
 
-    if (!email) {
-      setEmailError("Email is required");
-      isValid = false;
-    } else if (!isValidEmail(email)) {
-      setEmailError("Invalid email format");
-      isValid = false;
-    } else {
-      setEmailError("");
-    }
+    // if (!email) {
+    //   setEmailError("Email is required");
+    //   isValid = false;
+    // } else if (!isValidEmail(email)) {
+    //   setEmailError("Invalid email format");
+    //   isValid = false;
+    // } else {
+    //   setEmailError("");
+    // }
 
     if (!phone) {
       setPhoneError("Phone number is required");
@@ -93,7 +93,7 @@ function ContactForm() {
             />
             {nameError && <div className="text-danger">{nameError}</div>}
           </div>
-          <div className="form-group my-3">
+          {/* <div className="form-group my-3">
             <input
               type="text"
               id="email"
@@ -104,7 +104,7 @@ function ContactForm() {
               required
             />
             {emailError && <div className="text-danger">{emailError}</div>}
-          </div>
+          </div> */}
           <div className="form-group my-3">
             <input
               type="text"
