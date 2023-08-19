@@ -14,9 +14,8 @@ function ContactForm() {
   const handleWhatsapp = () => {
     if (validateForm()) {
       const url =
-        `https://wa.me/+919662973973?text=` +
+        `https://wa.me/+918544600600?text=` +
         `*Name :* ${name}%0a` +
-        `*Email :* ${email}%0a` +
         `*Phone :* ${phone}%0a` +
         `*Message :* ${message}`;
 
